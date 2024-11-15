@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 250, 250);
+}
+
+header h1 {
+    background-color: #d9eed9;
+    color: black;
+    padding: 15px 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    padding: 10px 0;
+    background-color: transparent;
+}
+
+nav ul.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+
+nav ul.nav-links li {
+    margin: 0 20px;
+}
+
+nav ul.nav-links li a {
+    color: #4CAF50;
+    text-decoration: none;
+    padding: 8px 10px;
+    background-color: transparent;
+}
+
+nav ul.nav-links li a:hover {
+    color: #006400;
+    background-color: #f3f0f0;
+}
+
+
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.section {
+    margin: 0;
+    padding: 30px 20px;
+}
+
+section {
+    padding: 30px 20px;
+    margin: 10px 0;
+    height: auto;
+
+}
+
+.card {
+    width: 250px;
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.card p {
+    color: #555;
+    font-size: 14px;
+}
+
+.card p.price {
+    color: #236031;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    background-color: #124314;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+}
